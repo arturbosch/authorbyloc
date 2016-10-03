@@ -1,5 +1,3 @@
-package io.gitlab.arturbosch
-
 import groovy.transform.Immutable
 import groovy.transform.ToString
 import io.gitlab.arturbosch.loc.core.LOC
@@ -28,7 +26,7 @@ import java.util.function.BiFunction
  *
  * @author Artur Bosch
  */
-//@Grab('io.gitlab.arturbosch:lloc:1.4')
+@Grab('io.gitlab.arturbosch:lloc:1.4')
 class AuthorByLoc {
 
 	static void main(String... args) {
