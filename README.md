@@ -1,3 +1,5 @@
+# AuthorByLoc
+
 Collects from given project path all contributors and assign them the loc count of
 their written files.
 
@@ -12,3 +14,12 @@ In the future a concept of name merging is thoughtful.
 
 This little program is though to be used as a groovy script, but can also be build
 to a jar file with the shadow task.
+
+## Build/Run
+
+groovy path/to/jar path/to/project  - Run as a groovy script by providing the path to the jar file and a project to analyze.
+Make sure that you have a needed version of lloc.
+
+gradle shadow - Builds a jar with dependencies which can be executed like a standard java jar.
+
+gradle clean build - cd into build/distribution and unzip the archive, run the shell/bat script.
