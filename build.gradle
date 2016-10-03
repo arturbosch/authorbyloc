@@ -1,0 +1,19 @@
+plugins {
+	id "com.github.johnrengelman.shadow" version "1.2.3"
+}
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+mainClassName = 'io.gitlab.arturbosch.AuthorByLoc'
+group 'io.gitlab.arturbosch'
+version '1.0.0'
+
+repositories {
+	mavenCentral()
+	mavenLocal()
+}
+
+dependencies {
+	compile 'org.codehaus.groovy:groovy-all:2.4.6'
+	compile 'io.gitlab.arturbosch:lloc:1.4'
+}
