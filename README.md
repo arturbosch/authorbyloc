@@ -17,8 +17,8 @@ to a jar file with the shadow task.
 
 ## Build/Run
 
-`groovy path/to/jar path/to/project`  - Run as a groovy script by providing the path to the jar file and a project to analyze.
-Make sure that you have a needed version of lloc.
+`groovy path/to/script path/to/project`  - Run as a groovy script by providing the path to the groovy file and a project to analyze.
+Make sure that you have a needed version of lloc in your local maven repo. Use the duplicated AuthorByLoc.groovy for this.
 
 `gradle shadow` - Builds a jar with dependencies which can be executed like a standard java jar.
 
